@@ -22,6 +22,16 @@ const videos = [
   "/galeria/videos/midia_182.mp4",
   "/galeria/videos/midia_183.mp4",
   "/galeria/videos/midia_184.mp4",
+  "/galeria/videos/midia_185.mp4",
+  "/galeria/videos/midia_186.mp4",
+  "/galeria/videos/midia_187.mp4",
+  "/galeria/videos/midia_188.mp4",
+  "/galeria/videos/midia_189.mp4",
+  "/galeria/videos/midia_190.mp4",
+  "/galeria/videos/midia_191.mp4",
+  "/galeria/videos/midia_192.mp4",
+  "/galeria/videos/midia_193.mp4",
+  "/galeria/videos/midia_194.mp4",
 ];
 
 const Hero = () => {
