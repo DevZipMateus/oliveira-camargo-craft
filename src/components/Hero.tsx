@@ -15,9 +15,16 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-secondary pt-20"
+      className="min-h-screen flex items-center justify-center pt-20 relative bg-gradient-to-br from-background via-background to-secondary"
+      style={{
+        backgroundImage: "url('/hero-bg.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}
     >
-      <div className="container mx-auto px-4 py-16">
+      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
+      <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 flex justify-center">
             <img
