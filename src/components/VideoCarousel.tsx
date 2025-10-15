@@ -74,7 +74,10 @@ const VideoCarousel = () => {
                       autoPlay
                       muted
                       playsInline
-                      className="w-full h-auto rounded-lg shadow-xl"
+                      controls={false}
+                      disablePictureInPicture
+                      controlsList="nodownload nofullscreen noremoteplayback"
+                      className="w-full h-auto rounded-lg shadow-xl pointer-events-none"
                       onEnded={() => handleVideoEnded(index)}
                     >
                       <source src={videoSrc} type="video/mp4" />
