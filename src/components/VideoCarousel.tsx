@@ -63,7 +63,7 @@ const VideoCarousel = () => {
               align: "start",
               loop: true,
             }}
-            className="w-full max-w-sm md:max-w-md lg:max-w-lg"
+            className="w-full max-w-sm"
           >
             <CarouselContent>
               {videos.map((videoSrc, index) => (
