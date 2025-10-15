@@ -56,7 +56,7 @@ const Hero = () => {
 
           {/* Vídeo à direita */}
           <div className="flex items-center justify-center">
-            <div className="w-full max-w-lg backdrop-blur-sm p-4 rounded-lg shadow-lg bg-white/[0.37]">
+            <div className="w-full max-w-md backdrop-blur-sm p-4 rounded-lg shadow-lg bg-white/[0.37]">
               <video 
                 autoPlay 
                 loop 
