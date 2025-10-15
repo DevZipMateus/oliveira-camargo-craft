@@ -25,7 +25,7 @@ const Hero = () => {
     >
       
       <div className="container mx-auto px-4 py-16 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-lg">
           <div className="mb-8 flex justify-center">
             <img
               src="/logo.png"
