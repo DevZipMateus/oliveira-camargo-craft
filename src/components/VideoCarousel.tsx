@@ -63,12 +63,12 @@ const VideoCarousel = () => {
               align: "start",
               loop: true,
             }}
-            className="w-full max-w-3xl"
+            className="w-full max-w-sm md:max-w-md lg:max-w-lg"
           >
             <CarouselContent>
               {videos.map((videoSrc, index) => (
                 <CarouselItem key={index}>
-                  <div className="p-4">
+                  <div className="p-2">
                     <video
                       ref={(el) => (videoRefs.current[index] = el)}
                       autoPlay
